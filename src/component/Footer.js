@@ -19,7 +19,7 @@ const Footer = () => {
                             <li><a href="/">Home</a></li>
                             <li><a href="/power">Power</a></li>
                             <li><a href="/power#page2-section5">Applications</a> </li>
-                            <li><a href="/shop">Shop</a></li>
+                            <li><a href="/shops">Shop</a></li>
                             <li>FAQ</li>
                         </ul>
                         <ul>

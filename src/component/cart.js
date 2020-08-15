@@ -16,13 +16,14 @@ export const Cart = (props) => {
     return(
             <div>
             <div className="app-header">
-                <h1>Cart (1)</h1>
+                <h1>Cart ({props.item.pname? "1":"0"})</h1>
             </div>
             <button className="modal-close" onClick={(e) =>{ 
                 props.closeCart();
                 props.clearItem();
                 }} style={{ position: "absolute", right: "0", top: "45px", fontSize: "20px" }}>X</button>
-            {props.item &&
+            {
+            props.item.pname &&
                 <div className="grid-3 cart">
                     <div>
                     <video autoPlay loop muted src={bouncer} style={{width:"100%",background: "#eee"}} />
@@ -48,7 +49,7 @@ export const Cart = (props) => {
                     <p>Total Price:</p>
                 </div>
                 <div style={{ textAlign: "right",padding: "0px 45px"}}>
-                    <p>${props.item.price*p3}</p>
+                    <p>${props.item.price*p3|| 0}</p>
                 </div>
                 <div>
 

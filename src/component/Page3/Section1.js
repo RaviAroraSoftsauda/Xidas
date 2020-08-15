@@ -75,48 +75,7 @@ const Section1 = (props) => {
                         </div>
 
                     </div>
-                    <div style={{ padding: "50px", textAlign: "center" ,marginLeft:"-50px"}}>
-                        <video autoPlay loop muted src={bouncer} style={{width:"100%",height:"20vw",background: "#eee"}} />
-                        <h4>Product Title 3</h4>
-                        <p>$120</p>
-
-
-                        <div style={{ marginTop: "20px" }}>
-                            <button className="checkout checkout-color" onClick={openModal}>Buy</button>
-                        </div>
-
-                    </div>
-                    <div style={{ padding: "50px", textAlign: "center" ,marginLeft:"-50px"}}>
-                        <video autoPlay loop muted src={bouncer} style={{width:"100%",height:"20vw",background: "#eee"}} />
-                        <h4>Product Title 4</h4>
-                        <p>$120</p>
-
-                        <div style={{ marginTop: "20px" }}>
-                            <button className="checkout checkout-color" onClick={openModal}>Buy</button>
-                        </div>
-                    </div>
-                    <div style={{ padding: "50px", textAlign: "center" ,marginLeft:"-50px"}}>
-                        <video autoPlay loop muted src={bouncer} style={{width:"100%",height:"20vw",background: "#eee"}} />
-                        <h4>Product Title 5</h4>
-                        <p>$120</p>
-
-
-                        <div style={{ marginTop: "20px" }}>
-                            <button className="checkout checkout-color" onClick={openModal}>Buy</button>
-                        </div>
-
-                    </div>
-                    <div style={{ padding: "50px", textAlign: "center" ,marginLeft:"-50px"}}>
-                        <video autoPlay loop muted src={bouncer} style={{width:"100%",height:"20vw",background: "#eee"}} />
-                        <h4>Product Title 6</h4>
-                        <p>$120</p>
-
-
-                        <div style={{ marginTop: "20px" }}>
-                            <button className="checkout checkout-color" onClick={openModal}>Buy</button>
-                        </div>
-
-                    </div>
+                   
                 </div>
              </div>
                 <Modal

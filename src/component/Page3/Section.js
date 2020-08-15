@@ -160,7 +160,7 @@ const options = [
                             <p>Total Price:</p>
                         </div>
                         <div style={{ textAlign: "right" }}>
-                            <p>$120</p>
+                            <p>${120*quantity}</p>
                         </div>
                         
                         <div style={{ marginTop: "15px",textAlign:"right" }}>
